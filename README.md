@@ -3,9 +3,6 @@
 
 ![b4nb](https://github.com/tango-controls/jupyTango/blob/master/resources/gif/jupyTango.gif)
 
-## About Tango 
-[Tango](https://www.tango-controls.org) is a free open source device-oriented controls toolkit for controlling any kind of hardware or software and building SCADA (supervisory control and data acquisition) systems. Tango Controls is operating system independent and supports C++, Java and Python for all the components.
-
 ## About bokeh
 Control system clients require both static and dynamic (i.e live/asynchronous) data visualization. Since Jupyter doesn't provide any 'official' data visualization solution, we need to select one. Among the available solutions, [bokeh](http://bokeh.pydata.org/en/latest) presents the highest potential for our application. See 'jupytango/session.py' for details about jupyTango asynchronous features.
 
