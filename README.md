@@ -14,6 +14,7 @@ Here is a step by step jupyTango installation procedure.
 - `sudo apt install tango-db tango-test`
 
 #### Step-01: install [anaconda](https://www.anaconda.com/products/individual)
+- install [anaconda (python >= 3.7)](https://www.anaconda.com/products/individual)
 - create a dedicated jupytango environment (optional but recommended): `conda create -n jupytango python=3.7`
 - activate the jupytango environment: `conda activate jupytango`
 
