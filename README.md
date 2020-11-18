@@ -1,21 +1,11 @@
-# **jupyter-for-controls**
-Small projects, evaluations, POC, presentations, ... related to the Jupyter Ecosystem (and 'embeddable' technologies, e.g. bokeh) for controls. The main goal is to turn jupyter into a [Tango](https://www.tango-controls.org) feature-rich client plateform.  
-
 # **Installing jupyTango on Ubuntu Linux**
 ### **leveraging pytango, itango and bokeh features in the Jupyter notebook**
-
-## About this notebook
-
-This notebook belongs to a series of small projects which aim is to evaluate the [Jupyter](http://jupyter.org/) ecosystem for science experiments control. The main idea is to use the _Juypter notebook_ as a convergence platform in order to offer a fully featured environment to scientists. 
 
 ## About Tango 
 [Tango](https://www.tango-controls.org) is a free open source device-oriented controls toolkit for controlling any kind of hardware or software and building SCADA (supervisory control and data acquisition) systems. Tango Controls is operating system independent and supports C++, Java and Python for all the components.
 
 ## About bokeh
-Experiments control requires both static and dynamic (i.e live) data visualization. Since Jupyter doesn't provide any 'official' data visualization solution, we need to select one. Among the available solutions, [bokeh](http://bokeh.pydata.org/en/latest) presents the highest potential for our application.
-
-## Topic of the day
-This notebook is a tutorial on "How to provide amazing Tango releated features in the jupyterlab"
+Control system clients require both static and dynamic (i.e live/asynchronous) data visualization. Since Jupyter doesn't provide any 'official' data visualization solution, we need to select one. Among the available solutions, [bokeh](http://bokeh.pydata.org/en/latest) presents the highest potential for our application. See 'jupytango/session.py' for details about jupyTango asynchronous features.
 
 ## jupyTango installation
 Here is a step by step jupyTango installation procedure.
@@ -80,10 +70,10 @@ Here is a step by step jupyTango installation procedure.
 
 ## opening a jupyTango notebook
 - Open a terminal 
-- Be sure that jupyTango is in your PYTHONPATH: e.g. `export PYTHONPATH=$HOME/projects/jupyter-for-controls`
+- Be sure that jupyTango is in your PYTHONPATH: e.g. `export PYTHONPATH=$HOME/projects/jupyTango`
 - Specify the jupyTango context by typing: `export JUPYTER_CONTEXT=LAB` (this will be removed in a near future)
 - Start jupyterlab by typing: `jupyter-lab` (will spawn a web browser instance)
 - From the `Launcher` tab of the web browser `JupyterLab` tab, open a `jupyTango` notebook (click on the `J` icon)
-- the `09_jupytango.ipynb` is a good starting point to get started with jupyTango
+- the `01_introduction.ipynb` is a good starting point to get started with jupyTango
 
 Enjoy!
