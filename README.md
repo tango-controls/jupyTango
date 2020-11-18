@@ -1,6 +1,8 @@
 # **Installing jupyTango on Ubuntu Linux**
 ### **leveraging pytango, itango and bokeh features in the Jupyter notebook**
 
+![b4nb](https://github.com/tango-controls/jupyTango/blob/master/resources/gif/jupyTango.gif)
+
 ## About Tango 
 [Tango](https://www.tango-controls.org) is a free open source device-oriented controls toolkit for controlling any kind of hardware or software and building SCADA (supervisory control and data acquisition) systems. Tango Controls is operating system independent and supports C++, Java and Python for all the components.
 
