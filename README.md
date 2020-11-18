@@ -49,7 +49,7 @@ Here is a step by step jupyTango installation procedure.
     config.InteractiveShellApp.extensions = ['jupytango']
 ```
 
-#### Step-10: create the jupyTango (i.e. the [jupyter](https://jupyter.org) kernel) 
+#### Step-10: create the jupyTango kernel (i.e. the [jupyter](https://jupyter.org) kernel) 
 - create the kernel directory: `mkdir $HOME/.local/share/jupyter/kernels/jupytango`
 - in that directory create a file named `kernel.json` containing the following configuration:
 ```
@@ -67,6 +67,9 @@ Here is a step by step jupyTango installation procedure.
          "display_name": "jupyTango"
     }
 ```
+
+#### Step-11: copy kernel logo into the jupyTango kernel direcrtory
+- `cp ./resources/logo/* $HOME/.local/share/jupyter/kernels/jupytango`
 
 ## opening a jupyTango notebook
 - Open a terminal 
