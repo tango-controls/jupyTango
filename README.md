@@ -4,7 +4,7 @@
 ![b4nb](https://github.com/tango-controls/jupyTango/blob/master/resources/gif/jupyTango.gif)
 
 ## About bokeh
-Control system clients require both static and dynamic (i.e live/asynchronous) data visualization. Since Jupyter doesn't provide any 'official' data visualization solution, we need to select one. Among the available solutions, [bokeh](http://bokeh.pydata.org/en/latest) presents the highest potential for our application. See 'jupytango/session.py' for details about jupyTango asynchronous features.
+A control system client requires both static and dynamic data visualization (i.e (plots and live/asynchronous monitors). Since Jupyter doesn't provide any 'official' data visualization solution, we need to select one. Among the available solutions, [bokeh](http://bokeh.pydata.org/en/latest) presents the highest potential for our application. This is mainly due to the fact that Bokeh the application model relies on the Tornado web server who provides the fundamentals for our asynchronous implementation. See 'jupytango/session.py' for details about jupyTango asynchronous features.
 
 ## jupyTango installation
 Here is a step by step jupyTango installation procedure.
@@ -77,6 +77,6 @@ Here is a step by step jupyTango installation procedure.
 - Specify the jupyTango context by typing: `export JUPYTER_CONTEXT=LAB` (this will be removed in a near future)
 - Start jupyterlab by typing: `jupyter-lab` (will spawn a web browser instance)
 - From the `Launcher` tab of the web browser `JupyterLab` tab, open a `jupyTango` notebook (click on the Tango logo)
-- the `01_introduction.ipynb` is a good starting point to get started with jupyTango
+- the `01_introduction.ipynb` notebook is a good starting point to get started with jupyTango
 
 Enjoy!
