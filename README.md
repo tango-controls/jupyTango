@@ -4,7 +4,7 @@
 ![b4nb](https://github.com/tango-controls/jupyTango/blob/master/resources/gif/jupyTango.gif)
 
 ## About bokeh
-A control system client requires both static and dynamic data visualization (i.e (plots and live/asynchronous monitors). Since Jupyter doesn't provide any 'official' data visualization solution, we need to select one. Among the available solutions, [bokeh](http://bokeh.pydata.org/en/latest) presents the highest potential for our application. This is mainly due to the fact that [Bokeh the application model relies on the Tornado web server](https://docs.bokeh.org/en/latest/docs/dev_guide/server.html) who provides the fundamentals for our asynchronous implementation. See 'jupytango/session.py' for details about jupyTango asynchronous features.
+A control system client requires both static and dynamic data visualization (i.e plots and live/asynchronous monitors). Since Jupyter doesn't provide any 'official' data visualization solution, we need to select one. Among the available solutions, [bokeh](http://bokeh.pydata.org/en/latest) presents the highest potential for our application. This is mainly due to the fact that [Bokeh application model relies on the Tornado web server](https://docs.bokeh.org/en/latest/docs/dev_guide/server.html) who provides the fundamentals for our asynchronous implementation. See 'jupytango/session.py' for details about jupyTango asynchronous features.
 
 ## jupyTango installation
 Here is a step by step jupyTango installation procedure.
