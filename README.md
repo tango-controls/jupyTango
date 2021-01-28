@@ -25,7 +25,7 @@ Here is a step by step jupyTango installation procedure.
 - `conda install -c conda-forge jupyterlab`
 
 #### Step-04: install [nodejs](https://nodejs.org/en/)
-- `conda install -c conda-forge nodejs=10`
+- `conda install -c conda-forge nodejs=12`
 
 #### Step-05: install [ipywidgets](https://github.com/jupyter-widgets/ipywidgets)
 - `conda install -c conda-forge ipywidgets`
