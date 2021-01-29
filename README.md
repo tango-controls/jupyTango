@@ -43,11 +43,13 @@ Here is a step by step jupyTango installation procedure.
 
 #### Step-09: create the jupyTango profile (i.e. [ipython](https://ipython.org) profile) 
 - create the profile directory: `cp -Rf $HOME/.ipython/profile_default $HOME/.ipython/profile_jupytango`
+- in case `.ipython/profile_default` doesn't exist, just launch `ipython` in a console to create it then retry 
 - in that directory create a file named `ipython_config.py` containing:
 ```
     config = get_config()
     config.InteractiveShellApp.extensions = ['jupytango']
 ```
+
 
 #### Step-10: create the jupyTango kernel (i.e. the [jupyter](https://jupyter.org) kernel) 
 - create the kernel directory: `mkdir $HOME/.local/share/jupyter/kernels/jupytango`
