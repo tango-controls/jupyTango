@@ -36,10 +36,10 @@ Here is a step by step jupyTango installation procedure.
 - install the bokeh extension for jupyterlab: `jupyter labextension install @bokeh/jupyter_bokeh`
 
 #### Step-07: install [pytango](https://pytango.readthedocs.io/en/stable/)
-- `conda install -c tango-controls pytango`
+- `conda install -c conda-forge pytango`
 
 #### Step-08: install [itango](https://pythonhosted.org/itango/)
-- `conda install -c tango-controls itango`
+- `conda install -c conda-forge itango`
 
 #### Step-09: create the jupyTango profile (i.e. [ipython](https://ipython.org) profile) 
 - create the profile directory: `cp -Rf $HOME/.ipython/profile_default $HOME/.ipython/profile_jupytango`
